@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -11,18 +12,49 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+/* Section Styling */
 section {
-  margin: 20px;
+  margin: 40px;
   padding: 20px;
   background: #fff;
   border-radius: 8px;
 }
+/* Links Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
 
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Footer Styling */
 footer {
   text-align: center;
   padding: 10px;
   background: #333;
   color: #fff;
   position: relative;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    width: 90%;
+    padding: 15px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
 }
