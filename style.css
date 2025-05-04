@@ -12,12 +12,46 @@ header {
   text-align: center;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 1s ease both;
+  animation-delay: 0.2s;
+}
+
+.skill-item i,
+li i {
+  margin-right: 8px;
+  color: #0077b6;
+}
+/* Section Styling */
 section {
   margin: 20px;
   padding: 20px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Links Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 footer {
