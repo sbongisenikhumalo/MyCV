@@ -30,7 +30,6 @@ header h1 {
 header p {
   font-size: 1.2rem;
 }
-
 /* Section Styling */
 section {
   background: #ffffff;
@@ -94,7 +93,6 @@ ul li {
 
 .skill-item i {
   margin-right: 8px;
-}
 
 /* Projects */
 ul li strong {
